@@ -1,6 +1,6 @@
 #import "@preview/stellar-springer-nature:0.1.0": article, bmhead
 #import "annot.typ": annot
-#import "chapters/frontmatter.typ": fm
+#import "frontmatter.typ": fm
 
 #show: article.with(
   title: fm.title,
@@ -10,6 +10,21 @@
   abstract: fm.abstract,
   keywords: fm.keywords,
 )
+
+#show highlight: set highlight(
+  fill: blue.transparentize(50%),
+  top-edge: "x-height",
+)
+#show underline: set underline(
+  stroke: green + 1pt,
+)
+
+#show link: it => {
+  underline(
+    stroke: blue + 1pt,
+    it.body
+  )
+}
 
 #metadata((
   created: fm.created,
@@ -26,11 +41,13 @@
 
 #bmhead[Supplementary information]
 
-If your article has accompanying supplementary file/s please state so here.
+_If your article has accompanying supplementary file/s please state so here._
 
 #bmhead[Acknowledgements]
 
-Acknowledgements are not compulsory. Where included they should be brief. Grant or contribution numbers may be acknowledged.
+_Acknowledgements are not compulsory._
+_Where included they should be brief._
+_Grant or contribution numbers may be acknowledged._
 
 #heading(numbering: none)[Declarations]
 
