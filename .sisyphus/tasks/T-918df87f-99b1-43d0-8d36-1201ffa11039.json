@@ -1,0 +1,10 @@
+{
+  "id": "T-918df87f-99b1-43d0-8d36-1201ffa11039",
+  "subject": "Preserve Typst front matter",
+  "description": "Keep title, authors, abstract, and metadata in native Typst multi-file setup",
+  "status": "completed",
+  "activeForm": "Completed preserving native Typst front matter and metadata",
+  "blocks": [],
+  "blockedBy": [],
+  "threadID": "ses_28cfd9860ffekT5AVLm9h1Evwt"
+}

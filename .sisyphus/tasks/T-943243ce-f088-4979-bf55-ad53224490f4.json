@@ -1,0 +1,20 @@
+{
+  "id": "T-943243ce-f088-4979-bf55-ad53224490f4",
+  "subject": ": \"Convert Markdown to native Typst with multi-file structure\"",
+  "description": "Convert the main.md Markdown content into native Typst syntax and reorganize into a multi-file chapter structure for the academic paper",
+  "status": "pending",
+  "blocks": [],
+  "blockedBy": [],
+  "metadata": {
+    "chapters": [
+      "intro",
+      "methods",
+      "results",
+      "conclusions",
+      "summary"
+    ],
+    "frontmatter_needed": true,
+    "template": "springer-nature"
+  },
+  "threadID": "ses_28cfd9860ffekT5AVLm9h1Evwt"
+}
